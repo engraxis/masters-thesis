@@ -1,0 +1,51 @@
+﻿Build started 2015-08-01 오전 1:22:52.
+     1>Project "C:\DATA\Programming_Work\VS2010\ksh_DlgBase_GL_Ver_1_01_20150731_HapticDevice_Project_SCI_rev\ksh_DlgBase_GL\ksh_DlgBase_GL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ksh_HapticMaster_Proj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\[kshFiles]" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CommThread.cpp
+         CommThread.cpp
+     1>c:\data\programming_work\vs2010\ksh_dlgbase_gl_ver_1_01_20150731_hapticdevice_project_sci_rev\ksh_dlgbase_gl\commthread.cpp(415): warning C4101: 'dwError' : unreferenced local variable
+     1>c:\data\programming_work\vs2010\ksh_dlgbase_gl_ver_1_01_20150731_hapticdevice_project_sci_rev\ksh_dlgbase_gl\commthread.cpp(813): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\data\programming_work\vs2010\ksh_dlgbase_gl_ver_1_01_20150731_hapticdevice_project_sci_rev\ksh_dlgbase_gl\commthread.cpp(814): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\data\programming_work\vs2010\ksh_dlgbase_gl_ver_1_01_20150731_hapticdevice_project_sci_rev\ksh_dlgbase_gl\commthread.cpp(816): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\data\programming_work\vs2010\ksh_dlgbase_gl_ver_1_01_20150731_hapticdevice_project_sci_rev\ksh_dlgbase_gl\commthread.cpp(817): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\data\programming_work\vs2010\ksh_dlgbase_gl_ver_1_01_20150731_hapticdevice_project_sci_rev\ksh_dlgbase_gl\commthread.cpp(529): warning C4101: 'dwRes' : unreferenced local variable
+     1>c:\data\programming_work\vs2010\ksh_dlgbase_gl_ver_1_01_20150731_hapticdevice_project_sci_rev\ksh_dlgbase_gl\commthread.cpp(530): warning C4101: 'dwOvRes' : unreferenced local variable
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DATA\Programming_Work\VS2010\ksh_DlgBase_GL_Ver_1_01_20150731_HapticDevice_Project_SCI_rev\Debug\ksh_HapticMaster_Proj.exe" /INCREMENTAL /NOLOGO comctl32.lib NIDAQmx.lib /MANIFEST /ManifestFile:"Debug\ksh_HapticMaster_Proj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\DATA\Programming_Work\VS2010\ksh_DlgBase_GL_Ver_1_01_20150731_HapticDevice_Project_SCI_rev\Debug\ksh_HapticMaster_Proj.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DATA\Programming_Work\VS2010\ksh_DlgBase_GL_Ver_1_01_20150731_HapticDevice_Project_SCI_rev\Debug\ksh_HapticMaster_Proj.lib" /MACHINE:X86 Debug\ksh_DlgBase_GL.res
+         Debug\ksh_HapticMaster_Proj.exe.embed.manifest.res
+         Debug\hthread.obj
+         Debug\kshFontGL.obj
+         Debug\kshFPS.obj
+         Debug\kshImage.obj
+         Debug\kshMenuGL.obj
+         Debug\kshOpenGL.obj
+         Debug\kshTexture.obj
+         Debug\kshVector.obj
+         Debug\ksh_Func.obj
+         Debug\CommThread.obj
+         Debug\Controls.obj
+         Debug\Data_Save.obj
+         Debug\Graphics.obj
+         Debug\SerialPort.obj
+         Debug\stdafx.obj
+         Debug\WinMain.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ksh_HapticMaster_Proj.exe.embed.manifest" /manifest Debug\ksh_HapticMaster_Proj.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         ksh_DlgBase_GL.vcxproj -> C:\DATA\Programming_Work\VS2010\ksh_DlgBase_GL_Ver_1_01_20150731_HapticDevice_Project_SCI_rev\Debug\ksh_HapticMaster_Proj.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ksh_HapticMaster_Proj.unsuccessfulbuild".
+         Touching "Debug\ksh_HapticMaster_Proj.lastbuildstate".
+     1>Done Building Project "C:\DATA\Programming_Work\VS2010\ksh_DlgBase_GL_Ver_1_01_20150731_HapticDevice_Project_SCI_rev\ksh_DlgBase_GL\ksh_DlgBase_GL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.50

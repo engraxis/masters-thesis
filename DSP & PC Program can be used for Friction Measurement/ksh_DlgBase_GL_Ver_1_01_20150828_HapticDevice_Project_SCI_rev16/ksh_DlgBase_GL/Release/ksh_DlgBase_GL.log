@@ -1,0 +1,51 @@
+﻿Build started 10/17/2015 10:39:35 PM.
+     1>Project "C:\Users\Human Robotics\Desktop\Final_DSP_Pgm\ksh_DlgBase_GL_Ver_1_01_20150828_HapticDevice_Project_SCI_rev16\ksh_DlgBase_GL\ksh_DlgBase_GL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ksh_HapticMaster_Proj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\[kshFiles]" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CommThread.cpp
+         CommThread.cpp
+     1>CommThread.cpp(426): warning C4101: 'dwError' : unreferenced local variable
+     1>CommThread.cpp(802): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(804): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(805): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(808): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(963): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(965): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(968): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(970): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>CommThread.cpp(542): warning C4101: 'dwRes' : unreferenced local variable
+     1>CommThread.cpp(543): warning C4101: 'dwOvRes' : unreferenced local variable
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Human Robotics\Desktop\Final_DSP_Pgm\ksh_DlgBase_GL_Ver_1_01_20150828_HapticDevice_Project_SCI_rev16\Release\ksh_HapticMaster_Proj.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib /MANIFEST /ManifestFile:"Release\ksh_HapticMaster_Proj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Human Robotics\Desktop\Final_DSP_Pgm\ksh_DlgBase_GL_Ver_1_01_20150828_HapticDevice_Project_SCI_rev16\Release\ksh_HapticMaster_Proj.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Human Robotics\Desktop\Final_DSP_Pgm\ksh_DlgBase_GL_Ver_1_01_20150828_HapticDevice_Project_SCI_rev16\Release\ksh_HapticMaster_Proj.lib" /MACHINE:X86 Release\ksh_DlgBase_GL.res
+         Release\hthread.obj
+         Release\kshFontGL.obj
+         Release\kshFPS.obj
+         Release\kshImage.obj
+         Release\kshMenuGL.obj
+         Release\kshOpenGL.obj
+         Release\kshTexture.obj
+         Release\kshVector.obj
+         Release\ksh_Func.obj
+         Release\CommThread.obj
+         Release\Controls.obj
+         Release\Data_Save.obj
+         Release\Graphics.obj
+         Release\SerialPort.obj
+         Release\stdafx.obj
+         Release\WinMain.obj
+         Generating code
+         Finished generating code
+         ksh_DlgBase_GL.vcxproj -> C:\Users\Human Robotics\Desktop\Final_DSP_Pgm\ksh_DlgBase_GL_Ver_1_01_20150828_HapticDevice_Project_SCI_rev16\Release\ksh_HapticMaster_Proj.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Human Robotics\Desktop\Final_DSP_Pgm\ksh_DlgBase_GL_Ver_1_01_20150828_HapticDevice_Project_SCI_rev16\Release\ksh_HapticMaster_Proj.exe;#1" /manifest Release\ksh_HapticMaster_Proj.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\ksh_HapticMaster_Proj.unsuccessfulbuild".
+         Touching "Release\ksh_HapticMaster_Proj.lastbuildstate".
+     1>Done Building Project "C:\Users\Human Robotics\Desktop\Final_DSP_Pgm\ksh_DlgBase_GL_Ver_1_01_20150828_HapticDevice_Project_SCI_rev16\ksh_DlgBase_GL\ksh_DlgBase_GL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.69
